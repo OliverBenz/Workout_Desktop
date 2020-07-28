@@ -13,5 +13,5 @@ void Exercise::setNote(QString note){
 }
 
 QString Exercise::getName(){
-    return this->name;
+    return this->dumbbell ? this->name + " (Dumbell)" : this->name;
 }
