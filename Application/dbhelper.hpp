@@ -1,11 +1,10 @@
-#ifndef DBHELPER_H
-#define DBHELPER_H
+#pragma once
 
 #include <QtSql>
 #include <QSqlDatabase>
 #include <vector>
 
-#include "exercise.h"
+#include "exercise.hpp"
 
 class dbHelper{
     QSqlDatabase db;
@@ -17,5 +16,3 @@ public:
     void close();
     std::vector<Exercise *> getExercises();
 };
-
-#endif // DBHELPER_H

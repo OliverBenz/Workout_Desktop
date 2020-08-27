@@ -1,8 +1,8 @@
 #include <QApplication>
 #include <QMessageBox>
 
-#include "mainwindow.h"
-#include "dbhelper.h"
+#include "mainwindow.hpp"
+#include "dbhelper.hpp"
 
 int main(int argc, char *argv[]){
     QApplication a(argc, argv);

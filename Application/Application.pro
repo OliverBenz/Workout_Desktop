@@ -22,9 +22,9 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
-    dbhelper.h \
-    exercise.h \
-    mainwindow.h
+    dbhelper.hpp \
+    exercise.hpp \
+    mainwindow.hpp
 
 FORMS += \
     mainwindow.ui

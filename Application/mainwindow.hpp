@@ -1,10 +1,9 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
 #include <QMainWindow>
 #include <vector>
 
-#include "exercise.h"
+#include "exercise.hpp"
 
 QT_BEGIN_NAMESPACE
     namespace Ui { class MainWindow; }
@@ -25,4 +24,3 @@ public:
 private:
     Ui::MainWindow *ui;
 };
-#endif // MAINWINDOW_H

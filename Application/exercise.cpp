@@ -1,17 +1,17 @@
-#include "exercise.h"
+#include "exercise.hpp"
 
 Exercise::Exercise(int id, QString name, bool dumbbell, int reps, int sets){
-    this->id = id;
-    this->name = name;
-    this->dumbbell = dumbbell;
-    this->recommended_reps = reps;
-    this->recommended_sets = sets;
+    this->m_id = id;
+    this->m_name = name;
+    this->m_dumbbell = dumbbell;
+    this->m_recommended_reps = reps;
+    this->m_recommended_sets = sets;
 }
 
 void Exercise::setNote(QString note){
-    this->note = note;
+    this->m_note = note;
 }
 
 QString Exercise::getName(){
-    return this->dumbbell ? this->name + " (Dumbell)" : this->name;
+    return this->m_dumbbell ? this->m_name + " (Dumbell)" : this->m_name;
 }

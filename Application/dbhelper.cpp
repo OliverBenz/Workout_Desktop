@@ -1,7 +1,7 @@
 #include <QMessageBox>
 
-#include "dbhelper.h"
-#include "mainwindow.h"
+#include "dbhelper.hpp"
+#include "mainwindow.hpp"
 
 dbHelper::dbHelper(){
     this->db = QSqlDatabase::addDatabase("QMYSQL");
